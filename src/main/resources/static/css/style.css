@@ -1,0 +1,90 @@
+/* Custom styles for Dictionary Management Application */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: none;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    padding: 1rem;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+#dictionaryTable {
+    width: 100% !important;
+}
+
+#dictionaryTable th, #dictionaryTable td {
+    vertical-align: middle;
+}
+
+.action-buttons {
+    white-space: nowrap;
+}
+
+.action-buttons .btn {
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.25rem;
+}
+
+.form-select {
+    min-width: 200px;
+}
+
+.btn-icon {
+    padding: 0.25rem 0.5rem;
+}
+
+/* Custom styling for DataTables */
+.dataTables_wrapper .dataTables_filter {
+    margin-bottom: 1rem;
+}
+
+.dataTables_wrapper .dataTables_length {
+    margin-bottom: 1rem;
+}
+
+.dataTables_wrapper .dataTables_info {
+    padding-top: 1rem;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    padding-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .float-end {
+        float: none !important;
+        margin-top: 1rem;
+    }
+    
+    #dictionarySelect {
+        width: 100%;
+    }
+    
+    #addEntryBtn {
+        float: none !important;
+        margin-top: 1rem;
+        width: 100%;
+    }
+    
+    #deleteSelectedBtn {
+        width: 100%;
+    }
+}
